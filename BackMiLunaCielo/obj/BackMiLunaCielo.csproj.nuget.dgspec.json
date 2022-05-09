@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\VisualStudio\\Pruebas\\LunaCieloMayo\\BackMiLunaCielo\\BackMiLunaCielo\\BackMiLunaCielo.csproj": {}
+    "D:\\MiLunaCieloNETAngular\\ProyectoRealMILUNACIELO\\BackMiLunaCielo\\BackMiLunaCielo.csproj": {}
   },
   "projects": {
-    "D:\\VisualStudio\\Pruebas\\LunaCieloMayo\\BackMiLunaCielo\\BackMiLunaCielo\\BackMiLunaCielo.csproj": {
+    "D:\\MiLunaCieloNETAngular\\ProyectoRealMILUNACIELO\\BackMiLunaCielo\\BackMiLunaCielo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VisualStudio\\Pruebas\\LunaCieloMayo\\BackMiLunaCielo\\BackMiLunaCielo\\BackMiLunaCielo.csproj",
+        "projectUniqueName": "D:\\MiLunaCieloNETAngular\\ProyectoRealMILUNACIELO\\BackMiLunaCielo\\BackMiLunaCielo.csproj",
         "projectName": "BackMiLunaCielo",
-        "projectPath": "D:\\VisualStudio\\Pruebas\\LunaCieloMayo\\BackMiLunaCielo\\BackMiLunaCielo\\BackMiLunaCielo.csproj",
-        "packagesPath": "C:\\Users\\fernando.flores\\.nuget\\packages\\",
-        "outputPath": "D:\\VisualStudio\\Pruebas\\LunaCieloMayo\\BackMiLunaCielo\\BackMiLunaCielo\\obj\\",
+        "projectPath": "D:\\MiLunaCieloNETAngular\\ProyectoRealMILUNACIELO\\BackMiLunaCielo\\BackMiLunaCielo.csproj",
+        "packagesPath": "C:\\Users\\fernando\\.nuget\\packages\\",
+        "outputPath": "D:\\MiLunaCieloNETAngular\\ProyectoRealMILUNACIELO\\BackMiLunaCielo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\fernando.flores\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\fernando\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -48,6 +48,10 @@
               "target": "Package",
               "version": "[11.0.0, )"
             },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.4, )"
@@ -73,6 +77,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.3.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.17.0, )"
             }
           },
           "imports": [

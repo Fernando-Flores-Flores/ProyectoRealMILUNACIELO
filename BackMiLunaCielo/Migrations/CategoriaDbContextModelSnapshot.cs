@@ -59,7 +59,6 @@ namespace BackMiLunaCielo.Migrations
                         .HasColumnType("bytea");
 
                     b.Property<string>("Rol")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("UsuarioA")

@@ -6,10 +6,24 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 namespace BackMiLunaCielo.Migrations
 {
-    public partial class CreacionModeloUsuario : Migration
+    public partial class Primera : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.CreateTable(
+                name: "Categoria",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    Nombre = table.Column<string>(type: "text", nullable: false),
+                    FechaCreacion = table.Column<DateTime>(type: "timestamp with time zone", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Categoria", x => x.Id);
+                });
+
             migrationBuilder.CreateTable(
                 name: "Usuario",
                 columns: table => new
@@ -17,7 +31,7 @@ namespace BackMiLunaCielo.Migrations
                     Id = table.Column<int>(type: "integer", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     UsuarioA = table.Column<string>(type: "text", nullable: false),
-                    Rol = table.Column<string>(type: "text", nullable: false),
+                    Rol = table.Column<string>(type: "text", nullable: true),
                     PasswordHash = table.Column<byte[]>(type: "bytea", nullable: false),
                     PasswordSalt = table.Column<byte[]>(type: "bytea", nullable: false)
                 },
@@ -29,6 +43,9 @@ namespace BackMiLunaCielo.Migrations
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.DropTable(
+                name: "Categoria");
+
             migrationBuilder.DropTable(
                 name: "Usuario");
         }

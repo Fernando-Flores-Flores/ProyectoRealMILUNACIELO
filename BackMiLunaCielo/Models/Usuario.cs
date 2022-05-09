@@ -9,7 +9,7 @@ namespace BackMiLunaCielo.Models
 
         public string UsuarioA { get; set; }
 
-        public string Rol { get; set; }
+        public string? Rol { get; set; }
         public byte[] PasswordHash { get; set; }
 
         public byte[] PasswordSalt { get; set; }

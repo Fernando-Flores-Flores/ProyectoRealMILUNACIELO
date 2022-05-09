@@ -9,7 +9,7 @@ namespace BackMiLunaCielo.Repository.IRepository
 
         Usuario GetUsuario(int UsuarioId);
 
-        bool ExisteUsuario(string usuario);
+        bool ExisteUsuario(string nombre);
 
         Usuario Registro(Usuario usuario, string password);
 

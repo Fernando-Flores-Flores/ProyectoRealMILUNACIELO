@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace BackMiLunaCielo.Migrations
 {
     [DbContext(typeof(CategoriaDbContext))]
-    [Migration("20220504174836_CreacionModeloUsuario")]
-    partial class CreacionModeloUsuario
+    [Migration("20220509035008_Primera")]
+    partial class Primera
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -61,7 +61,6 @@ namespace BackMiLunaCielo.Migrations
                         .HasColumnType("bytea");
 
                     b.Property<string>("Rol")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("UsuarioA")

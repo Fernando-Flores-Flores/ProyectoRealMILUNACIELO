@@ -11,8 +11,8 @@ namespace BackMiLunaCielo.UsuariosMapper
         //Aqui vnculamos la clase y el dto
         public UsuariosMappers()
         {
-        CreateMap<Categoria, CategoriaDto>().ReverseMap();
-                
+            CreateMap<Categoria, CategoriaDto>().ReverseMap();
+            CreateMap<Usuario, UsuarioDto>().ReverseMap();
         }
 
     }
