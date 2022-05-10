@@ -15,12 +15,13 @@ using System.Security.Claims;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using System.IdentityModel.Tokens.Jwt;
+using Microsoft.Extensions.Configuration;
 
 namespace BackMiLunaCielo.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class UsuariosController : ControllerBase
+    public class UsuariosController : Controller
     {
         private readonly IUsuarioRepository _userRepo;
         private readonly IMapper _mapper;

@@ -544,6 +544,7 @@ D:\MiLunaCieloNETAngular\ProyectoRealMILUNACIELO\BackMiLunaCielo\bin\Debug\net6.
 D:\MiLunaCieloNETAngular\ProyectoRealMILUNACIELO\BackMiLunaCielo\bin\Debug\net6.0\Humanizer.dll
 D:\MiLunaCieloNETAngular\ProyectoRealMILUNACIELO\BackMiLunaCielo\bin\Debug\net6.0\MessagePack.dll
 D:\MiLunaCieloNETAngular\ProyectoRealMILUNACIELO\BackMiLunaCielo\bin\Debug\net6.0\MessagePack.Annotations.dll
+D:\MiLunaCieloNETAngular\ProyectoRealMILUNACIELO\BackMiLunaCielo\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\MiLunaCieloNETAngular\ProyectoRealMILUNACIELO\BackMiLunaCielo\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
 D:\MiLunaCieloNETAngular\ProyectoRealMILUNACIELO\BackMiLunaCielo\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
 D:\MiLunaCieloNETAngular\ProyectoRealMILUNACIELO\BackMiLunaCielo\bin\Debug\net6.0\Microsoft.Build.Locator.dll
@@ -799,4 +800,3 @@ D:\MiLunaCieloNETAngular\ProyectoRealMILUNACIELO\BackMiLunaCielo\obj\Debug\net6.
 D:\MiLunaCieloNETAngular\ProyectoRealMILUNACIELO\BackMiLunaCielo\obj\Debug\net6.0\BackMiLunaCielo.pdb
 D:\MiLunaCieloNETAngular\ProyectoRealMILUNACIELO\BackMiLunaCielo\obj\Debug\net6.0\BackMiLunaCielo.genruntimeconfig.cache
 D:\MiLunaCieloNETAngular\ProyectoRealMILUNACIELO\BackMiLunaCielo\obj\Debug\net6.0\ref\BackMiLunaCielo.dll
-D:\MiLunaCieloNETAngular\ProyectoRealMILUNACIELO\BackMiLunaCielo\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
